@@ -1,0 +1,900 @@
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000016426483040>: Failed to establish a new connection: 0x08: Address type not supported')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getMe
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000016426483430>: Failed to establish a new connection: 0x08: Address type not supported')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getMe
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000016426483730>: Failed to establish a new connection: 0x08: Address type not supported')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getMe
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000204AB813040>: Failed to establish a new connection: 0x08: Address type not supported')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getMe
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000204AB813430>: Failed to establish a new connection: 0x08: Address type not supported')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getMe
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000204AB813730>: Failed to establish a new connection: 0x08: Address type not supported')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getMe
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 20, in greet_user
+    print(1/0)
+ZeroDivisionError: division by zero
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 20, in greet_user
+    print(1/0)
+ZeroDivisionError: division by zero
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnectionPool object at 0x0000015B00F13A90>, 'Connect timed out. (connect timeout=5.0)')': /bot1987622231:AAEox9xrOUNDctvdaqtnkojqulB_HQUzZg0/getUpdates
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 20, in greet_user
+    print(1/0)
+ZeroDivisionError: division by zero
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 37, in guess_number
+    update.message.reply_text(message)
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_fhotos_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_photos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_fhotos_filename = choice(dog_photos_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_photos_filename = choice(dog_photos_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_photos_filename = choice(dog_photos_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+NameError: name 'choice' is not defined
+ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\utils\request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 61, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+NameError: name 'choice' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 31, in greet_user
+    smile = emojize(smile, use_aleases=True)
+TypeError: emojize() got an unexpected keyword argument 'use_aleases'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 31, in greet_user
+    smile = emojize(smile, use_aleases=True)
+TypeError: emojize() got an unexpected keyword argument 'use_aleases'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 31, in greet_user
+    smile = emojize(smile, use_aleases=True)
+TypeError: emojize() got an unexpected keyword argument 'use_aleases'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 35, in talk_to_me
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_data["emoji"]
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 35, in talk_to_me
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 46, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 46, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 46, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 46, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 47, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 47, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 47, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 31, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 50, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 32, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 51, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 32, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 51, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 34, in greet_user
+    smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 53, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 34, in greet_user
+    # smile = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 53, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 39, in talk_to_me
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 48, in get_smile
+    return user_data['emoji']
+KeyError: 'emoji'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data['emoji'] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 30, in greet_user
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 35, in talk_to_me
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 35, in talk_to_me
+    context.user_data["emoji"] = get_smile(context.user_data)
+  File "c:\projects\bot.py\Mybot.py", line 44, in get_smile
+    return user_dara["emoji"]
+NameError: name 'user_dara' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
