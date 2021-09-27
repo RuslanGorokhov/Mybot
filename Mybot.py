@@ -28,8 +28,11 @@ PROXY = {'proxy_url': settings.proxy_url,
 def greet_user(update, context):
     print('Вызови /start')
     context.user_data["emoji"] = get_smile(context.user_data)
-    update.message.reply_text(f'Привет, пользователь {context.user_data["emoji"]}!')
-
+    my_keyboard = ReplyKeyboardMarkup([['/dog']])
+    update.message.reply_text\
+        (f'Привет, пользователь {context.user_data["emoji"]}!',
+         reply_markup=my_keyboard
+        )
 
 def talk_to_me(update, context):
     context.user_data["emoji"] = get_smile(context.user_data)
