@@ -898,3 +898,129 @@ INFO:root:Бот стартовал
 INFO:apscheduler.scheduler:Scheduler started
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "c:\projects\bot.py\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\projects\bot.py\Mybot.py", line 73, in send_dog_picture
+    dog_photo_filename = choice(dog_photo_list)
+  File "C:\Users\79160\AppData\Local\Programs\Python\Python39\lib\random.py", line 347, in choice
+    return seq[self._randbelow(len(seq))]
+IndexError: list index out of range
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
